@@ -1,1 +1,1 @@
-#include <iostream> int main() { put(Goodbye World); }
+#include <iostream> int main() { put(Hello World); }
