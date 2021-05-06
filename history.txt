@@ -1,0 +1,106 @@
+    1  ls
+    2  cd ~/Documents/repoGit/C++/
+    3  ls
+    4  mkdir Online2021
+    5  cd Online2021/
+    6  ls
+    7  mkdir git-majonez
+    8  cd git-majonez/
+    9  ls
+   10  git status
+   11  git init 
+   12  git status
+   13  git remote add https://github.com/nauka-programowania-MA/sth.git
+   14  git status
+   15  git remote add origin https://github.com/nauka-programowania-MA/sth.git
+   16  echo "#include <iostream> int main() { put("Goodbye World"); }" > main.cpp
+   17  cat main.cpp 
+   18  git add *
+   19  git commit -am"Initial commit"
+   20  git status
+   21  git branch
+   22  git log -3
+   23  echo "#include <iostream> int main() { put("Hello World"); }" > main.cpp
+   24  git diff
+   25* git commit -am"Goodbye Coders School"
+   26  git log -5
+   27  gitk
+   28  git push -u origin master 
+   29  git status
+   30  git branch
+   31  git log -4
+   32  git checkout -b cs
+   33  git branch
+   34  git branch -a
+   35  git log -4
+   36  git reset HEAD~1
+   37  git status
+   38  git log -3
+   39  echo "#include <iostream> int main() { put("Goodbye Coders School"); }" > main.cpp
+   40  cat main.cpp 
+   41  git diff
+   42  git status
+   43  git commit -am"Greetings"
+   44  git log -3
+   45  git remote 
+   46  git remote -a
+   47  git remote -v
+   48  gi tlog -3
+   49  git log -3
+   50  git push origin HEAD
+   51  git status
+   52  git log -4
+   53  git checkout master 
+   54  git log -3
+   55  git rebase origin/cs
+   56  git mergetool -t meld
+   57  git mergetool -t meld
+   58  git config --global merge.tool meld
+   59  git config --global diff.tool meld
+   60  git config --global mergetool.meld.path "/c/Users/Iorwet/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Meld.exe"
+   61  git mergetool -t meld
+   62  git config --global mergetool.meld.path "/c/Users/Iorwet/AppData/Roaming/Microsoft/Windows/Start\ Menu/Programs/Meld.exe"
+   63  git mergetool -t meld
+   64  git config --global mergetool.meld.path ""/c/Users/Iorwet/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Meld.exe""
+   65  git mergetool -t meld
+   66  git config --global mergetool.meld.path ""/c/Users/Iorwet/AppData/Roaming/Microsoft/Windows/Start" "Menu/Programs/Meld.exe""
+   67  git mergetool -t meld
+   68  git config --global mergetool.meld.path "/c/Users/Iorwet/AppData/Local/Programs/Meld/Meld.exe"
+   69  git mergetool -t meld
+   70  git log -3
+   71  git diff
+   72  gitk
+   73  git merge origin/cs 
+   74  history 
+   75  history > history.txt
+   76  cat history.txt 
+   77  git commit -am"History added"
+   78  git status
+   79  gitk
+   80  ls
+   81  git clean -fd
+   82  git status
+   83  git rebase --continue 
+   84  git status
+   85  gitk
+   86  git log -3
+   87  git merge origin/cs
+   88  git status
+   89  git log -3
+   90  git pull
+   91  git mergetool -t meld
+   92  git log -3
+   93  git status
+   94  git pull
+   95  git merge origin/cs
+   96  git status
+   97  git commit -am"Merge branch cs"
+   98  git status
+   99  git push origin master 
+  100  git status
+  101  git clean -f
+  102  git ls
+  103  ls
+  104  gitk
+  105  cat main.cpp 
+  106  history > history.txt
